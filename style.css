@@ -171,13 +171,13 @@ body {
 }
 
 /* mobile phone */
-@media (max-width: 615px) {
+@media (max-width: 636px) {
   html {
     font-size: 60%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 40gipx;
+    padding: 40px;
     margin: 3px;
   }
 
