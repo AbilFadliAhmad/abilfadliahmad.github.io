@@ -322,6 +322,7 @@ body {
   .timeline li .timeline-panel {
     left: -32px;
     width: calc(100% - 435px);
+    margin: 0 0.8rem;
   }
   
   .timeline li.timeline-terbalik .timeline-panel {
@@ -331,7 +332,7 @@ body {
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   html {
     font-size: 65%;
   }
@@ -382,7 +383,7 @@ body {
   }
 
   .timeline li.timeline-terbalik .timeline-panel {
-    margin-right: 6rem;
+    margin-right: 7rem;
   }
 
 }
@@ -398,8 +399,25 @@ body {
     margin: 3px;
   }
 
+  .timeline {
+    justify-content: space-around;
+  }
+  
+  .timeline::before {
+    margin-left: 1.9rem;
+  }
+
   .timeline li .timeline-image {
-    float: left;
+    left: 30px;
+    margin-left: 4rem;
+    width: 115px;
+    height: 115px;
+  }
+
+
+  .timeline li .timeline-panel {
+    width: 200px;
+    margin-top: -0.1rem;
   }
 
 }
