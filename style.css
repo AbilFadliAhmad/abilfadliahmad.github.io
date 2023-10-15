@@ -399,6 +399,8 @@ body {
     margin: 3px;
   }
 
+  
+  
   .timeline {
     justify-content: space-around;
   }
@@ -413,11 +415,12 @@ body {
     width: 115px;
     height: 115px;
   }
-
-
+  
+  
   .timeline li .timeline-panel {
     width: calc(100% - 200px);
     margin-top: -0.1rem;
   }
-
+  
+  
 }
